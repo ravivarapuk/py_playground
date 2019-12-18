@@ -10,7 +10,7 @@ import yaml
 import smtplib    # SMTP -> Simple Mail Transfer Protocol
 from email.message import EmailMessage
 from string import Template
-from pathlib from Path
+from pathlib import Path
 
 html = Template(Path('index.html').read_text())
 email_id = sys.argv[1]
@@ -24,7 +24,8 @@ def msg_content(username, mailid):
     email['name'] = username
     email['to'] = mailid
     email['subject'] = 'You are invited!!!'
-    email.set_content(html.substitute({'name'= username},'html')
+    email.set_content(html.substitute({'name': username}), 'html')
+
     return email
 
 
