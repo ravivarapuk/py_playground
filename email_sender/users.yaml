@@ -1,0 +1,13 @@
+##########################################################################
+# Put in the emails of the users whom you would like to send an email to #
+##########################################################################
+# EmailIds:
+#     - mail1
+#     - mail2
+#     - mail3
+# Keep adding emails like this in the above format
+#--------------------------------------------------------------------------
+EmailIds:
+    - xyz | xyz@yahoo.co.in
+    - xyz | xyz@google.com
+    - abc | abc@rediff.com
