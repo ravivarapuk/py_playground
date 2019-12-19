@@ -8,6 +8,9 @@
 # Keep adding emails like this in the above format
 #--------------------------------------------------------------------------
 EmailIds:
-    - xyz | xyz@yahoo.co.in
-    - xyz | xyz@google.com
-    - abc | abc@rediff.com
+    - xyz 
+    - xyz@yahoo.co.in
+    - xyz 
+    - xyz@google.com
+    - abc 
+    - abc@rediff.com
